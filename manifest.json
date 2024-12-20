@@ -1,0 +1,1 @@
+{"manifest_version":3,"name":"dlpath","version":"1.0","permissions":["downloads"],"background":{"service_worker":"m.js"},"host_permissions":["http://*/*","https://*/*"]}

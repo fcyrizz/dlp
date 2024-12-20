@@ -1,0 +1,1 @@
+chrome.downloads.onDeterminingFilename.addListener((d,s)=>{const n=new Date(),y=n.getFullYear().toString().slice(-2),m=["JN","FB","MR","AR","MY","JN","JL","AG","ST","OT","NB","DB"][n.getMonth()],d2=String(n.getDate()).padStart(2,"0");s({filename:`${y}${m}/${d2}/${d.filename}`});});
